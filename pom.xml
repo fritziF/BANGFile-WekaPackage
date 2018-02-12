@@ -15,11 +15,7 @@
     Its tree structured directory partitions the data space into block regions with successive binary divisions on dimensions.
     The clustering algorithm identifies densely populated regions as cluster centers and expands those with neighboring blocks.
   </description>
-  <url>http://weka.sourceforge.net/doc.packages/BANGFile</url>
-  <organization>
-    <name>University of Waikato, Hamilton, NZ</name>
-    <url>http://www.waikato.ac.nz/</url>
-  </organization>
+  <url>https://github.com/fritziF/BANGFile-WekaPackage</url>
   <licenses>
     <license>
       <name>GNU General Public License 3</name>
@@ -28,34 +24,19 @@
     </license>
   </licenses>
 
-  <developers>
-    <developer>
-      <id>flofritz</id>
-      <name>Florian Fritz</name>
-      <email>florian.fritzi@gmail.com</email>
-    </developer>
-  </developers>
-
-  <mailingLists>
-    <mailingList>
-      <name>wekalist</name>
-      <subscribe>https://list.scms.waikato.ac.nz/mailman/listinfo/wekalist</subscribe>
-      <unsubscribe>https://list.scms.waikato.ac.nz/mailman/listinfo/wekalist</unsubscribe>
-      <archive>https://list.scms.waikato.ac.nz/mailman/htdig/wekalist/</archive>
-    </mailingList>
-  </mailingLists>
-
   <parent>
     <groupId>org.sonatype.oss</groupId>
     <artifactId>oss-parent</artifactId>
     <version>7</version>
   </parent>
 
+    <!--
   <scm>
     <connection>scm:svn:https://svn.scms.waikato.ac.nz/svn/weka/trunk/packages/external/PACKAGE</connection>
     <developerConnection>scm:svn:https://svn.scms.waikato.ac.nz/svn/weka/trunk/packages/external/PACKAGE</developerConnection>
     <url>https://svn.scms.waikato.ac.nz/svn/weka/trunk/packages/external/PACKAGE</url>
   </scm>
+  -->
 
   <profiles>
     <profile>
