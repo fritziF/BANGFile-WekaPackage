@@ -26,7 +26,7 @@ License=GPLv3
 Description=The BANG file is a multidimensional structure of the grid file type.<br/>It organizes the value space surrounding the data values, instead of comparing the data values themselves.<br/>Its tree structured directory partitions the data space into block regions with successive binary divisions on dimensions.<br/>The clustering algorithm identifies densely populated regions as cluster centers and expands those with neighboring blocks.<br/><br/>Inserted data has to be normalized to an interval [0, 1].
 
 # Package URL for obtaining the package archive (required)
-PackageURL=https://github.com/fritziF/BANGFile-WekaPackage
+PackageURL=https://github.com/fritziF/BANGFile-WekaPackage/releases/download/v0.9/BANGFile.zip
 
 # URL for further information
 URL=https://github.com/fritziF/BANGFile-WekaPackage
