@@ -647,7 +647,8 @@ public class BANGFile implements Serializable {
                     populationToTotal,
                     populationToClustered));
         }
-        builder.append(line);
+        builder.append(line + "\n");
+        builder.append("\n");
 
         return builder.toString();
     }
