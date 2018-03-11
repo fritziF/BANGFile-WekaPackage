@@ -353,15 +353,15 @@ public class BANGFile extends AbstractClusterer implements TechnicalInformationH
                 + "For more information see:\n\n" + getTechnicalInformation().toString();
     }
 
-    /**
-     * Returns the revision string.
-     *
-     * @return the revision
-     */
-    @Override
-    public String getRevision() {
-        return RevisionUtils.extract("$Revision: TODO $");
-    }
+//    /**
+//     * Returns the revision string.
+//     *
+//     * @return the revision
+//     */
+//    @Override
+//    public String getRevision() {
+//        return RevisionUtils.extract("$Revision: ??? $");
+//    }
 
     /**
      * Generates a clusterer. Has to initialize all fields of the clusterer that
